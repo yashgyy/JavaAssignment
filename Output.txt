@@ -1,0 +1,25 @@
+Enter Passwords seperated by Comma
+12sdA@83,a F1#,2w3E*%dg,2We3345, 1234567
+[12sdA@83, a F1#, 2w3E*%dg, 2We3345,  1234567]
+--------------------------------------------
+Given String is 12sdA@83
+Success
+------
+Given String is a F1#
+Failure
+** Password Must be 6 character Long
+------
+Given String is 2w3E*%dg
+Failure
+** Password Must not contain a character from %)(!
+------
+Given String is 2We3345
+Failure
+** Password must contain one character from *$_#=@
+------
+Given String is  1234567
+Failure
+** Password must contain one charcter from a-z
+** Password must Contain one charcater from A-Z
+** Password must contain one character from *$_#=@
+------
